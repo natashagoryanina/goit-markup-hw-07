@@ -77,9 +77,7 @@
     height: 50px;
 
     font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
+    @include font(16px, 700, 1.9);
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     text-align: center;
@@ -145,7 +143,6 @@ textarea {
 
   &__label {
     margin-left: 8.38px;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
